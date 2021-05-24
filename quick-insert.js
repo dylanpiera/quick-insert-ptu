@@ -1155,7 +1155,7 @@ class FilterEditor extends Application {
         super({
             title: i18n("FilterEditorTitle"),
             classes: ["filter-editor"],
-            template: "modules/quick-insert/templates/filter-editor.hbs",
+            template: "modules/quick-insert-ptu/templates/filter-editor.hbs",
             resizable: true,
             width: 550,
             height: 560,
@@ -1366,7 +1366,7 @@ class FilterList extends FormApplication {
             ...super.defaultOptions,
             title: i18n("FilterListTitle"),
             id: "filter-list",
-            template: "modules/quick-insert/templates/filter-list.hbs",
+            template: "modules/quick-insert-ptu/templates/filter-list.hbs",
             resizable: true,
             height: 500,
             width: 350,
@@ -1520,7 +1520,7 @@ class SheetFilters extends FormApplication {
             ...super.defaultOptions,
             title: i18n("SheetFiltersTitle"),
             id: "sheet-filters",
-            template: "modules/quick-insert/templates/sheet-filters.hbs",
+            template: "modules/quick-insert-ptu/templates/sheet-filters.hbs",
             resizable: true,
         };
     }
@@ -2571,7 +2571,7 @@ var ActiveMode;
 class SearchApp extends Application {
     constructor() {
         super({
-            template: "modules/quick-insert/templates/quick-insert.html",
+            template: "modules/quick-insert-ptu/templates/quick-insert.html",
             popOut: false,
         });
         this.debug = false;
@@ -2820,7 +2820,7 @@ class IndexingSettings extends FormApplication {
             ...super.defaultOptions,
             title: i18n("IndexingSettingsTitle"),
             id: "indexing-settings",
-            template: "modules/quick-insert/templates/indexing-settings.hbs",
+            template: "modules/quick-insert-ptu/templates/indexing-settings.hbs",
             resizable: true,
             width: 660,
         };
