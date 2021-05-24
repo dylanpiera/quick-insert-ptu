@@ -19,7 +19,7 @@
   "compatibleCoreVersion": "0.8.5",
   "url": "https://gitlab.com/fvtt-modules-lab/quick-insert",
   "manifest": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/jobs/artifacts/develop/raw/module.json?job=build-unstable",
-  "download": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/jobs/artifacts/develop/raw/quick-insert-v2.4.6-unstable.129.zip?job=build-unstable",
+  "download": "https://github.com/dylanpiera/quick-insert-ptu/archive/master.zip",
   "license": "MIT",
   "readme": "https://gitlab.com/fvtt-modules-lab/quick-insert",
   "bugs": "https://gitlab.com/fvtt-modules-lab/quick-insert/-/issues",
